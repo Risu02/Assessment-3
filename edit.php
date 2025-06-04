@@ -157,7 +157,7 @@
   <form method="post" action="update.php" class="form-group">
     <input type="hidden" name="id" value="<?php echo htmlspecialchars($row['id']); ?>" class="form-control">
 
-    <label for="Item">SCP #</label>
+    <label for="Item">SCP</label>
     <input type="text" id="Item" name="Item" value="<?php echo htmlspecialchars($row['Item']); ?>" class="form-control" required>
 
     <label for="Name">Name</label>

@@ -88,6 +88,7 @@
     textarea.form-control {
       min-height: 100px;
       resize: vertical;
+
     }
 
     input[type="submit"].btn-info {
@@ -152,7 +153,7 @@
     <p><a class="btn btn-primary" href="index.php">Back to index page</a></p>
 
     <form method="post" action="create.php" class="form-group">
-    <label for="Item">SCP #</label>
+    <label for="Item">SCP</label>
     <input type="text" id="Item" name="Item" class="form-control" required>
 
     <label for="Name">Name</label>
